@@ -2,7 +2,7 @@
 #Requires -Modules AzureADPreview
 #Requires -Modules Microsoft.Online.SharePoint.PowerShell
 
-<<#
+<#
 .SYNOPSIS
     Used to term users from the company network and Office 365
 
@@ -15,7 +15,7 @@
     - delegates mailbox access to manager
     - sets OoO 
 
-##>
+#>
 
 [CmdletBinding()]
 Param(
